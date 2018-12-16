@@ -1,0 +1,1764 @@
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteArray
+# Parameters: (numberStrings = 100, stringLength = 50)
+
+# Run progress: 0,00% complete, ETA 01:07:30
+# Fork: 1 of 5
+# Warmup Iteration   1: 122,476 us/op
+# Warmup Iteration   2: 120,174 us/op
+# Warmup Iteration   3: 125,479 us/op
+Iteration   1: 129,410 us/op
+Iteration   2: 130,619 us/op
+Iteration   3: 127,725 us/op
+
+# Run progress: 0,74% complete, ETA 01:08:08
+# Fork: 2 of 5
+# Warmup Iteration   1: 122,549 us/op
+# Warmup Iteration   2: 119,142 us/op
+# Warmup Iteration   3: 124,005 us/op
+Iteration   1: 129,703 us/op
+Iteration   2: 129,697 us/op
+Iteration   3: 131,409 us/op
+
+# Run progress: 1,48% complete, ETA 01:07:28
+# Fork: 3 of 5
+# Warmup Iteration   1: 122,957 us/op
+# Warmup Iteration   2: 119,682 us/op
+# Warmup Iteration   3: 122,230 us/op
+Iteration   1: 127,496 us/op
+Iteration   2: 128,166 us/op
+Iteration   3: 129,208 us/op
+
+# Run progress: 2,22% complete, ETA 01:06:54
+# Fork: 4 of 5
+# Warmup Iteration   1: 122,078 us/op
+# Warmup Iteration   2: 119,435 us/op
+# Warmup Iteration   3: 122,161 us/op
+Iteration   1: 124,269 us/op
+Iteration   2: 126,805 us/op
+Iteration   3: 130,085 us/op
+
+# Run progress: 2,96% complete, ETA 01:06:24
+# Fork: 5 of 5
+# Warmup Iteration   1: 122,926 us/op
+# Warmup Iteration   2: 123,533 us/op
+# Warmup Iteration   3: 120,343 us/op
+Iteration   1: 122,408 us/op
+Iteration   2: 118,657 us/op
+Iteration   3: 122,292 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteArray":
+  127,197 ±(99.9%) 3,930 us/op [Average]
+  (min, avg, max) = (118,657, 127,197, 131,409), stdev = 3,676
+  CI (99.9%): [123,266, 131,127] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteArray
+# Parameters: (numberStrings = 100, stringLength = 500)
+
+# Run progress: 3,70% complete, ETA 01:05:53
+# Fork: 1 of 5
+# Warmup Iteration   1: 1203,086 us/op
+# Warmup Iteration   2: 1175,039 us/op
+# Warmup Iteration   3: 1171,511 us/op
+Iteration   1: 1159,195 us/op
+Iteration   2: 1140,543 us/op
+Iteration   3: 1161,074 us/op
+
+# Run progress: 4,44% complete, ETA 01:05:23
+# Fork: 2 of 5
+# Warmup Iteration   1: 1162,813 us/op
+# Warmup Iteration   2: 1155,120 us/op
+# Warmup Iteration   3: 1179,048 us/op
+Iteration   1: 1174,092 us/op
+Iteration   2: 1179,028 us/op
+Iteration   3: 1169,680 us/op
+
+# Run progress: 5,19% complete, ETA 01:04:53
+# Fork: 3 of 5
+# Warmup Iteration   1: 1193,790 us/op
+# Warmup Iteration   2: 1152,870 us/op
+# Warmup Iteration   3: 1140,017 us/op
+Iteration   1: 1169,274 us/op
+Iteration   2: 1193,353 us/op
+Iteration   3: 1248,896 us/op
+
+# Run progress: 5,93% complete, ETA 01:04:22
+# Fork: 4 of 5
+# Warmup Iteration   1: 1205,387 us/op
+# Warmup Iteration   2: 1170,954 us/op
+# Warmup Iteration   3: 1187,764 us/op
+Iteration   1: 1230,382 us/op
+Iteration   2: 1213,819 us/op
+Iteration   3: 1212,333 us/op
+
+# Run progress: 6,67% complete, ETA 01:03:54
+# Fork: 5 of 5
+# Warmup Iteration   1: 1190,477 us/op
+# Warmup Iteration   2: 1159,151 us/op
+# Warmup Iteration   3: 1160,310 us/op
+Iteration   1: 1181,254 us/op
+Iteration   2: 1180,906 us/op
+Iteration   3: 1179,406 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteArray":
+  1186,216 ±(99.9%) 30,880 us/op [Average]
+  (min, avg, max) = (1140,543, 1186,216, 1248,896), stdev = 28,885
+  CI (99.9%): [1155,336, 1217,096] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteArray
+# Parameters: (numberStrings = 100, stringLength = 5000)
+
+# Run progress: 7,41% complete, ETA 01:03:23
+# Fork: 1 of 5
+# Warmup Iteration   1: 11854,155 us/op
+# Warmup Iteration   2: 11721,534 us/op
+# Warmup Iteration   3: 11808,269 us/op
+Iteration   1: 11732,839 us/op
+Iteration   2: 11667,900 us/op
+Iteration   3: 11704,653 us/op
+
+# Run progress: 8,15% complete, ETA 01:02:53
+# Fork: 2 of 5
+# Warmup Iteration   1: 11765,965 us/op
+# Warmup Iteration   2: 11672,671 us/op
+# Warmup Iteration   3: 11623,219 us/op
+Iteration   1: 11625,086 us/op
+Iteration   2: 11385,293 us/op
+Iteration   3: 11510,743 us/op
+
+# Run progress: 8,89% complete, ETA 01:02:23
+# Fork: 3 of 5
+# Warmup Iteration   1: 11648,468 us/op
+# Warmup Iteration   2: 11284,522 us/op
+# Warmup Iteration   3: 11482,826 us/op
+Iteration   1: 11392,592 us/op
+Iteration   2: 11586,227 us/op
+Iteration   3: 11701,456 us/op
+
+# Run progress: 9,63% complete, ETA 01:01:52
+# Fork: 4 of 5
+# Warmup Iteration   1: 11664,894 us/op
+# Warmup Iteration   2: 11505,938 us/op
+# Warmup Iteration   3: 11490,781 us/op
+Iteration   1: 11641,714 us/op
+Iteration   2: 11457,628 us/op
+Iteration   3: 11325,261 us/op
+
+# Run progress: 10,37% complete, ETA 01:01:22
+# Fork: 5 of 5
+# Warmup Iteration   1: 11606,458 us/op
+# Warmup Iteration   2: 11348,926 us/op
+# Warmup Iteration   3: 11482,948 us/op
+Iteration   1: 11374,813 us/op
+Iteration   2: 11393,815 us/op
+Iteration   3: 11412,904 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteArray":
+  11527,528 ±(99.9%) 153,423 us/op [Average]
+  (min, avg, max) = (11325,261, 11527,528, 11732,839), stdev = 143,512
+  CI (99.9%): [11374,105, 11680,952] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteArray
+# Parameters: (numberStrings = 1000, stringLength = 50)
+
+# Run progress: 11,11% complete, ETA 01:00:51
+# Fork: 1 of 5
+# Warmup Iteration   1: 1323,388 us/op
+# Warmup Iteration   2: 1311,089 us/op
+# Warmup Iteration   3: 1288,538 us/op
+Iteration   1: 1253,419 us/op
+Iteration   2: 1247,395 us/op
+Iteration   3: 1252,184 us/op
+
+# Run progress: 11,85% complete, ETA 01:00:21
+# Fork: 2 of 5
+# Warmup Iteration   1: 1299,354 us/op
+# Warmup Iteration   2: 1255,255 us/op
+# Warmup Iteration   3: 1263,437 us/op
+Iteration   1: 1283,004 us/op
+Iteration   2: 1259,156 us/op
+Iteration   3: 1448,113 us/op
+
+# Run progress: 12,59% complete, ETA 00:59:50
+# Fork: 3 of 5
+# Warmup Iteration   1: 1356,114 us/op
+# Warmup Iteration   2: 1239,233 us/op
+# Warmup Iteration   3: 1368,463 us/op
+Iteration   1: 1323,865 us/op
+Iteration   2: 1283,405 us/op
+Iteration   3: 1264,065 us/op
+
+# Run progress: 13,33% complete, ETA 00:59:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 1361,633 us/op
+# Warmup Iteration   2: 1275,040 us/op
+# Warmup Iteration   3: 1265,211 us/op
+Iteration   1: 1256,154 us/op
+Iteration   2: 1294,797 us/op
+Iteration   3: 1292,894 us/op
+
+# Run progress: 14,07% complete, ETA 00:58:49
+# Fork: 5 of 5
+# Warmup Iteration   1: 1308,897 us/op
+# Warmup Iteration   2: 1231,165 us/op
+# Warmup Iteration   3: 1249,148 us/op
+Iteration   1: 1249,894 us/op
+Iteration   2: 1245,400 us/op
+Iteration   3: 1244,543 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteArray":
+  1279,886 ±(99.9%) 55,516 us/op [Average]
+  (min, avg, max) = (1244,543, 1279,886, 1448,113), stdev = 51,929
+  CI (99.9%): [1224,370, 1335,401] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteArray
+# Parameters: (numberStrings = 1000, stringLength = 500)
+
+# Run progress: 14,81% complete, ETA 00:58:19
+# Fork: 1 of 5
+# Warmup Iteration   1: 12109,231 us/op
+# Warmup Iteration   2: 11591,407 us/op
+# Warmup Iteration   3: 11933,601 us/op
+Iteration   1: 11861,942 us/op
+Iteration   2: 11947,480 us/op
+Iteration   3: 11873,392 us/op
+
+# Run progress: 15,56% complete, ETA 00:57:48
+# Fork: 2 of 5
+# Warmup Iteration   1: 12047,832 us/op
+# Warmup Iteration   2: 11709,274 us/op
+# Warmup Iteration   3: 11712,680 us/op
+Iteration   1: 11903,162 us/op
+Iteration   2: 11639,835 us/op
+Iteration   3: 11800,126 us/op
+
+# Run progress: 16,30% complete, ETA 00:57:18
+# Fork: 3 of 5
+# Warmup Iteration   1: 12082,377 us/op
+# Warmup Iteration   2: 11656,959 us/op
+# Warmup Iteration   3: 11676,124 us/op
+Iteration   1: 11625,682 us/op
+Iteration   2: 11675,975 us/op
+Iteration   3: 11589,296 us/op
+
+# Run progress: 17,04% complete, ETA 00:56:47
+# Fork: 4 of 5
+# Warmup Iteration   1: 11998,446 us/op
+# Warmup Iteration   2: 11628,876 us/op
+# Warmup Iteration   3: 11681,729 us/op
+Iteration   1: 11798,525 us/op
+Iteration   2: 11776,387 us/op
+Iteration   3: 11592,021 us/op
+
+# Run progress: 17,78% complete, ETA 00:56:17
+# Fork: 5 of 5
+# Warmup Iteration   1: 12136,401 us/op
+# Warmup Iteration   2: 11927,793 us/op
+# Warmup Iteration   3: 11885,618 us/op
+Iteration   1: 11801,405 us/op
+Iteration   2: 11629,116 us/op
+Iteration   3: 11756,142 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteArray":
+  11751,366 ±(99.9%) 126,782 us/op [Average]
+  (min, avg, max) = (11589,296, 11751,366, 11947,480), stdev = 118,592
+  CI (99.9%): [11624,584, 11878,147] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteArray
+# Parameters: (numberStrings = 1000, stringLength = 5000)
+
+# Run progress: 18,52% complete, ETA 00:55:46
+# Fork: 1 of 5
+# Warmup Iteration   1: 118253,905 us/op
+# Warmup Iteration   2: 116820,318 us/op
+# Warmup Iteration   3: 113738,537 us/op
+Iteration   1: 115020,371 us/op
+Iteration   2: 115806,485 us/op
+Iteration   3: 113413,880 us/op
+
+# Run progress: 19,26% complete, ETA 00:55:18
+# Fork: 2 of 5
+# Warmup Iteration   1: 119073,121 us/op
+# Warmup Iteration   2: 114797,916 us/op
+# Warmup Iteration   3: 113195,311 us/op
+Iteration   1: 113504,915 us/op
+Iteration   2: 113504,851 us/op
+Iteration   3: 112998,765 us/op
+
+# Run progress: 20,00% complete, ETA 00:54:49
+# Fork: 3 of 5
+# Warmup Iteration   1: 117141,748 us/op
+# Warmup Iteration   2: 116343,584 us/op
+# Warmup Iteration   3: 115055,103 us/op
+Iteration   1: 114319,072 us/op
+Iteration   2: 115678,790 us/op
+Iteration   3: 112422,216 us/op
+
+# Run progress: 20,74% complete, ETA 00:54:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 117769,161 us/op
+# Warmup Iteration   2: 113601,219 us/op
+# Warmup Iteration   3: 112829,782 us/op
+Iteration   1: 113667,363 us/op
+Iteration   2: 112947,169 us/op
+Iteration   3: 113483,377 us/op
+
+# Run progress: 21,48% complete, ETA 00:53:51
+# Fork: 5 of 5
+# Warmup Iteration   1: 116841,673 us/op
+# Warmup Iteration   2: 113679,523 us/op
+# Warmup Iteration   3: 114500,155 us/op
+Iteration   1: 114046,425 us/op
+Iteration   2: 113397,658 us/op
+Iteration   3: 112706,302 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteArray":
+  113794,509 ±(99.9%) 1085,791 us/op [Average]
+  (min, avg, max) = (112422,216, 113794,509, 115806,485), stdev = 1015,649
+  CI (99.9%): [112708,718, 114880,300] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteArray
+# Parameters: (numberStrings = 10000, stringLength = 50)
+
+# Run progress: 22,22% complete, ETA 00:53:21
+# Fork: 1 of 5
+# Warmup Iteration   1: 13280,061 us/op
+# Warmup Iteration   2: 12879,945 us/op
+# Warmup Iteration   3: 12826,635 us/op
+Iteration   1: 12830,354 us/op
+Iteration   2: 12705,880 us/op
+Iteration   3: 12946,475 us/op
+
+# Run progress: 22,96% complete, ETA 00:52:51
+# Fork: 2 of 5
+# Warmup Iteration   1: 13258,265 us/op
+# Warmup Iteration   2: 12800,151 us/op
+# Warmup Iteration   3: 12660,556 us/op
+Iteration   1: 12852,658 us/op
+Iteration   2: 12840,134 us/op
+Iteration   3: 12638,503 us/op
+
+# Run progress: 23,70% complete, ETA 00:52:20
+# Fork: 3 of 5
+# Warmup Iteration   1: 13255,204 us/op
+# Warmup Iteration   2: 12783,528 us/op
+# Warmup Iteration   3: 12779,743 us/op
+Iteration   1: 12944,844 us/op
+Iteration   2: 12889,023 us/op
+Iteration   3: 12791,786 us/op
+
+# Run progress: 24,44% complete, ETA 00:51:49
+# Fork: 4 of 5
+# Warmup Iteration   1: 12748,276 us/op
+# Warmup Iteration   2: 12383,393 us/op
+# Warmup Iteration   3: 12769,443 us/op
+Iteration   1: 12572,805 us/op
+Iteration   2: 12667,796 us/op
+Iteration   3: 12307,589 us/op
+
+# Run progress: 25,19% complete, ETA 00:51:19
+# Fork: 5 of 5
+# Warmup Iteration   1: 13321,367 us/op
+# Warmup Iteration   2: 12526,381 us/op
+# Warmup Iteration   3: 12940,356 us/op
+Iteration   1: 12664,332 us/op
+Iteration   2: 13022,581 us/op
+Iteration   3: 12715,078 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteArray":
+  12759,323 ±(99.9%) 192,214 us/op [Average]
+  (min, avg, max) = (12307,589, 12759,323, 13022,581), stdev = 179,797
+  CI (99.9%): [12567,109, 12951,536] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteArray
+# Parameters: (numberStrings = 10000, stringLength = 500)
+
+# Run progress: 25,93% complete, ETA 00:50:48
+# Fork: 1 of 5
+# Warmup Iteration   1: 127259,771 us/op
+# Warmup Iteration   2: 118823,755 us/op
+# Warmup Iteration   3: 125119,910 us/op
+Iteration   1: 122629,749 us/op
+Iteration   2: 119727,189 us/op
+Iteration   3: 119779,771 us/op
+
+# Run progress: 26,67% complete, ETA 00:50:18
+# Fork: 2 of 5
+# Warmup Iteration   1: 122611,369 us/op
+# Warmup Iteration   2: 118832,135 us/op
+# Warmup Iteration   3: 117809,280 us/op
+Iteration   1: 117447,808 us/op
+Iteration   2: 118745,961 us/op
+Iteration   3: 118623,421 us/op
+
+# Run progress: 27,41% complete, ETA 00:49:49
+# Fork: 3 of 5
+# Warmup Iteration   1: 124342,854 us/op
+# Warmup Iteration   2: 119900,037 us/op
+# Warmup Iteration   3: 120054,822 us/op
+Iteration   1: 120326,997 us/op
+Iteration   2: 119381,740 us/op
+Iteration   3: 118143,992 us/op
+
+# Run progress: 28,15% complete, ETA 00:49:19
+# Fork: 4 of 5
+# Warmup Iteration   1: 124644,144 us/op
+# Warmup Iteration   2: 122223,973 us/op
+# Warmup Iteration   3: 120188,254 us/op
+Iteration   1: 119062,552 us/op
+Iteration   2: 119347,373 us/op
+Iteration   3: 119100,321 us/op
+
+# Run progress: 28,89% complete, ETA 00:48:49
+# Fork: 5 of 5
+# Warmup Iteration   1: 124367,740 us/op
+# Warmup Iteration   2: 119181,312 us/op
+# Warmup Iteration   3: 117720,620 us/op
+Iteration   1: 117992,099 us/op
+Iteration   2: 117361,063 us/op
+Iteration   3: 118089,258 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteArray":
+  119050,620 ±(99.9%) 1405,393 us/op [Average]
+  (min, avg, max) = (117361,063, 119050,620, 122629,749), stdev = 1314,605
+  CI (99.9%): [117645,227, 120456,012] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteArray
+# Parameters: (numberStrings = 10000, stringLength = 5000)
+
+# Run progress: 29,63% complete, ETA 00:48:19
+# Fork: 1 of 5
+# Warmup Iteration   1: 1436936,084 us/op
+# Warmup Iteration   2: 1200813,454 us/op
+# Warmup Iteration   3: 1192536,544 us/op
+Iteration   1: 1185479,772 us/op
+Iteration   2: 1192588,731 us/op
+Iteration   3: 1236028,538 us/op
+
+# Run progress: 30,37% complete, ETA 00:48:04
+# Fork: 2 of 5
+# Warmup Iteration   1: 1291714,716 us/op
+# Warmup Iteration   2: 1214235,058 us/op
+# Warmup Iteration   3: 1182466,389 us/op
+Iteration   1: 1183673,089 us/op
+Iteration   2: 1188685,426 us/op
+Iteration   3: 1201010,212 us/op
+
+# Run progress: 31,11% complete, ETA 00:47:45
+# Fork: 3 of 5
+# Warmup Iteration   1: 1292588,973 us/op
+# Warmup Iteration   2: 1184395,910 us/op
+# Warmup Iteration   3: 1181755,365 us/op
+Iteration   1: 1196918,556 us/op
+Iteration   2: 1190142,938 us/op
+Iteration   3: 1184838,914 us/op
+
+# Run progress: 31,85% complete, ETA 00:47:25
+# Fork: 4 of 5
+# Warmup Iteration   1: 1275254,669 us/op
+# Warmup Iteration   2: 1172158,990 us/op
+# Warmup Iteration   3: 1158369,051 us/op
+Iteration   1: 1166459,258 us/op
+Iteration   2: 1179029,515 us/op
+Iteration   3: 1168840,052 us/op
+
+# Run progress: 32,59% complete, ETA 00:47:03
+# Fork: 5 of 5
+# Warmup Iteration   1: 1337014,179 us/op
+# Warmup Iteration   2: 1234664,708 us/op
+# Warmup Iteration   3: 1202016,391 us/op
+Iteration   1: 1194459,812 us/op
+Iteration   2: 1214619,520 us/op
+Iteration   3: 1232951,079 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteArray":
+  1194381,694 ±(99.9%) 21549,208 us/op [Average]
+  (min, avg, max) = (1166459,258, 1194381,694, 1236028,538), stdev = 20157,142
+  CI (99.9%): [1172832,487, 1215930,902] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteChannel
+# Parameters: (numberStrings = 100, stringLength = 50)
+
+# Run progress: 33,33% complete, ETA 00:46:44
+# Fork: 1 of 5
+# Warmup Iteration   1: 513,346 us/op
+# Warmup Iteration   2: 501,599 us/op
+# Warmup Iteration   3: 500,828 us/op
+Iteration   1: 501,634 us/op
+Iteration   2: 497,515 us/op
+Iteration   3: 499,160 us/op
+
+# Run progress: 34,07% complete, ETA 00:46:11
+# Fork: 2 of 5
+# Warmup Iteration   1: 501,250 us/op
+# Warmup Iteration   2: 495,809 us/op
+# Warmup Iteration   3: 488,489 us/op
+Iteration   1: 483,688 us/op
+Iteration   2: 486,083 us/op
+Iteration   3: 506,518 us/op
+
+# Run progress: 34,81% complete, ETA 00:45:39
+# Fork: 3 of 5
+# Warmup Iteration   1: 508,201 us/op
+# Warmup Iteration   2: 522,007 us/op
+# Warmup Iteration   3: 523,785 us/op
+Iteration   1: 476,012 us/op
+Iteration   2: 484,204 us/op
+Iteration   3: 481,228 us/op
+
+# Run progress: 35,56% complete, ETA 00:45:06
+# Fork: 4 of 5
+# Warmup Iteration   1: 505,158 us/op
+# Warmup Iteration   2: 493,636 us/op
+# Warmup Iteration   3: 498,654 us/op
+Iteration   1: 502,402 us/op
+Iteration   2: 513,047 us/op
+Iteration   3: 495,333 us/op
+
+# Run progress: 36,30% complete, ETA 00:44:34
+# Fork: 5 of 5
+# Warmup Iteration   1: 515,556 us/op
+# Warmup Iteration   2: 498,736 us/op
+# Warmup Iteration   3: 496,828 us/op
+Iteration   1: 513,614 us/op
+Iteration   2: 515,553 us/op
+Iteration   3: 493,678 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteChannel":
+  496,645 ±(99.9%) 13,356 us/op [Average]
+  (min, avg, max) = (476,012, 496,645, 515,553), stdev = 12,494
+  CI (99.9%): [483,288, 510,001] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteChannel
+# Parameters: (numberStrings = 100, stringLength = 500)
+
+# Run progress: 37,04% complete, ETA 00:44:01
+# Fork: 1 of 5
+# Warmup Iteration   1: 5094,953 us/op
+# Warmup Iteration   2: 4986,730 us/op
+# Warmup Iteration   3: 4975,041 us/op
+Iteration   1: 5044,891 us/op
+Iteration   2: 4993,435 us/op
+Iteration   3: 4965,795 us/op
+
+# Run progress: 37,78% complete, ETA 00:43:29
+# Fork: 2 of 5
+# Warmup Iteration   1: 5007,681 us/op
+# Warmup Iteration   2: 5012,904 us/op
+# Warmup Iteration   3: 4876,693 us/op
+Iteration   1: 4887,104 us/op
+Iteration   2: 4879,095 us/op
+Iteration   3: 4894,316 us/op
+
+# Run progress: 38,52% complete, ETA 00:42:57
+# Fork: 3 of 5
+# Warmup Iteration   1: 5049,717 us/op
+# Warmup Iteration   2: 4936,101 us/op
+# Warmup Iteration   3: 4849,236 us/op
+Iteration   1: 4913,742 us/op
+Iteration   2: 4959,667 us/op
+Iteration   3: 4867,223 us/op
+
+# Run progress: 39,26% complete, ETA 00:42:25
+# Fork: 4 of 5
+# Warmup Iteration   1: 5100,891 us/op
+# Warmup Iteration   2: 5072,783 us/op
+# Warmup Iteration   3: 4892,701 us/op
+Iteration   1: 4994,939 us/op
+Iteration   2: 5006,973 us/op
+Iteration   3: 5103,929 us/op
+
+# Run progress: 40,00% complete, ETA 00:41:53
+# Fork: 5 of 5
+# Warmup Iteration   1: 5229,086 us/op
+# Warmup Iteration   2: 4862,706 us/op
+# Warmup Iteration   3: 4883,085 us/op
+Iteration   1: 4928,788 us/op
+Iteration   2: 4950,681 us/op
+Iteration   3: 5055,783 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteChannel":
+  4963,091 ±(99.9%) 75,331 us/op [Average]
+  (min, avg, max) = (4867,223, 4963,091, 5103,929), stdev = 70,465
+  CI (99.9%): [4887,759, 5038,422] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteChannel
+# Parameters: (numberStrings = 100, stringLength = 5000)
+
+# Run progress: 40,74% complete, ETA 00:41:21
+# Fork: 1 of 5
+# Warmup Iteration   1: 51252,570 us/op
+# Warmup Iteration   2: 49347,357 us/op
+# Warmup Iteration   3: 49717,700 us/op
+Iteration   1: 48700,921 us/op
+Iteration   2: 50772,525 us/op
+Iteration   3: 50370,528 us/op
+
+# Run progress: 41,48% complete, ETA 00:40:49
+# Fork: 2 of 5
+# Warmup Iteration   1: 52119,911 us/op
+# Warmup Iteration   2: 50085,603 us/op
+# Warmup Iteration   3: 49663,055 us/op
+Iteration   1: 49524,455 us/op
+Iteration   2: 49358,283 us/op
+Iteration   3: 49351,429 us/op
+
+# Run progress: 42,22% complete, ETA 00:40:18
+# Fork: 3 of 5
+# Warmup Iteration   1: 53958,576 us/op
+# Warmup Iteration   2: 50326,521 us/op
+# Warmup Iteration   3: 50467,243 us/op
+Iteration   1: 50229,144 us/op
+Iteration   2: 50329,827 us/op
+Iteration   3: 50308,602 us/op
+
+# Run progress: 42,96% complete, ETA 00:39:46
+# Fork: 4 of 5
+# Warmup Iteration   1: 50592,097 us/op
+# Warmup Iteration   2: 50086,969 us/op
+# Warmup Iteration   3: 50142,279 us/op
+Iteration   1: 49732,859 us/op
+Iteration   2: 51145,036 us/op
+Iteration   3: 50224,827 us/op
+
+# Run progress: 43,70% complete, ETA 00:39:15
+# Fork: 5 of 5
+# Warmup Iteration   1: 50578,394 us/op
+# Warmup Iteration   2: 48317,750 us/op
+# Warmup Iteration   3: 48351,027 us/op
+Iteration   1: 48489,418 us/op
+Iteration   2: 48347,248 us/op
+Iteration   3: 48760,298 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteChannel":
+  49709,693 ±(99.9%) 923,890 us/op [Average]
+  (min, avg, max) = (48347,248, 49709,693, 51145,036), stdev = 864,208
+  CI (99.9%): [48785,803, 50633,584] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteChannel
+# Parameters: (numberStrings = 1000, stringLength = 50)
+
+# Run progress: 44,44% complete, ETA 00:38:43
+# Fork: 1 of 5
+# Warmup Iteration   1: 5189,280 us/op
+# Warmup Iteration   2: 5080,565 us/op
+# Warmup Iteration   3: 5126,573 us/op
+Iteration   1: 5104,867 us/op
+Iteration   2: 5038,277 us/op
+Iteration   3: 5079,092 us/op
+
+# Run progress: 45,19% complete, ETA 00:38:12
+# Fork: 2 of 5
+# Warmup Iteration   1: 5142,325 us/op
+# Warmup Iteration   2: 5089,430 us/op
+# Warmup Iteration   3: 5076,108 us/op
+Iteration   1: 5217,485 us/op
+Iteration   2: 5074,258 us/op
+Iteration   3: 5060,688 us/op
+
+# Run progress: 45,93% complete, ETA 00:37:40
+# Fork: 3 of 5
+# Warmup Iteration   1: 5038,143 us/op
+# Warmup Iteration   2: 4909,207 us/op
+# Warmup Iteration   3: 4908,033 us/op
+Iteration   1: 4939,144 us/op
+Iteration   2: 4926,901 us/op
+Iteration   3: 4908,708 us/op
+
+# Run progress: 46,67% complete, ETA 00:37:08
+# Fork: 4 of 5
+# Warmup Iteration   1: 5382,558 us/op
+# Warmup Iteration   2: 5151,448 us/op
+# Warmup Iteration   3: 5030,129 us/op
+Iteration   1: 5022,085 us/op
+Iteration   2: 5045,269 us/op
+Iteration   3: 5165,390 us/op
+
+# Run progress: 47,41% complete, ETA 00:36:37
+# Fork: 5 of 5
+# Warmup Iteration   1: 5082,381 us/op
+# Warmup Iteration   2: 4903,940 us/op
+# Warmup Iteration   3: 4886,793 us/op
+Iteration   1: 5036,380 us/op
+Iteration   2: 5047,411 us/op
+Iteration   3: 4935,769 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteChannel":
+  5040,115 ±(99.9%) 93,043 us/op [Average]
+  (min, avg, max) = (4908,708, 5040,115, 5217,485), stdev = 87,033
+  CI (99.9%): [4947,072, 5133,158] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteChannel
+# Parameters: (numberStrings = 1000, stringLength = 500)
+
+# Run progress: 48,15% complete, ETA 00:36:05
+# Fork: 1 of 5
+# Warmup Iteration   1: 50600,044 us/op
+# Warmup Iteration   2: 49516,701 us/op
+# Warmup Iteration   3: 48714,285 us/op
+Iteration   1: 48842,023 us/op
+Iteration   2: 48924,295 us/op
+Iteration   3: 48923,546 us/op
+
+# Run progress: 48,89% complete, ETA 00:35:34
+# Fork: 2 of 5
+# Warmup Iteration   1: 48894,595 us/op
+# Warmup Iteration   2: 48780,689 us/op
+# Warmup Iteration   3: 48803,132 us/op
+Iteration   1: 49117,564 us/op
+Iteration   2: 48818,948 us/op
+Iteration   3: 48996,464 us/op
+
+# Run progress: 49,63% complete, ETA 00:35:03
+# Fork: 3 of 5
+# Warmup Iteration   1: 49391,050 us/op
+# Warmup Iteration   2: 48816,761 us/op
+# Warmup Iteration   3: 48259,239 us/op
+Iteration   1: 48570,608 us/op
+Iteration   2: 49615,630 us/op
+Iteration   3: 48446,975 us/op
+
+# Run progress: 50,37% complete, ETA 00:34:31
+# Fork: 4 of 5
+# Warmup Iteration   1: 49502,963 us/op
+# Warmup Iteration   2: 49481,093 us/op
+# Warmup Iteration   3: 49183,150 us/op
+Iteration   1: 49117,926 us/op
+Iteration   2: 49997,240 us/op
+Iteration   3: 50560,805 us/op
+
+# Run progress: 51,11% complete, ETA 00:34:00
+# Fork: 5 of 5
+# Warmup Iteration   1: 50110,528 us/op
+# Warmup Iteration   2: 49703,556 us/op
+# Warmup Iteration   3: 51204,503 us/op
+Iteration   1: 50953,352 us/op
+Iteration   2: 49412,398 us/op
+Iteration   3: 49178,368 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteChannel":
+  49298,409 ±(99.9%) 760,173 us/op [Average]
+  (min, avg, max) = (48446,975, 49298,409, 50953,352), stdev = 711,066
+  CI (99.9%): [48538,236, 50058,583] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteChannel
+# Parameters: (numberStrings = 1000, stringLength = 5000)
+
+# Run progress: 51,85% complete, ETA 00:33:29
+# Fork: 1 of 5
+# Warmup Iteration   1: 510660,751 us/op
+# Warmup Iteration   2: 490610,883 us/op
+# Warmup Iteration   3: 486776,181 us/op
+Iteration   1: 492395,319 us/op
+Iteration   2: 487128,616 us/op
+Iteration   3: 485866,874 us/op
+
+# Run progress: 52,59% complete, ETA 00:32:59
+# Fork: 2 of 5
+# Warmup Iteration   1: 505516,191 us/op
+# Warmup Iteration   2: 485856,886 us/op
+# Warmup Iteration   3: 493448,392 us/op
+Iteration   1: 494754,357 us/op
+Iteration   2: 494271,856 us/op
+Iteration   3: 492656,872 us/op
+
+# Run progress: 53,33% complete, ETA 00:32:30
+# Fork: 3 of 5
+# Warmup Iteration   1: 500581,831 us/op
+# Warmup Iteration   2: 496610,604 us/op
+# Warmup Iteration   3: 501215,280 us/op
+Iteration   1: 487704,893 us/op
+Iteration   2: 487957,868 us/op
+Iteration   3: 487391,071 us/op
+
+# Run progress: 54,07% complete, ETA 00:32:00
+# Fork: 4 of 5
+# Warmup Iteration   1: 503384,870 us/op
+# Warmup Iteration   2: 482878,632 us/op
+# Warmup Iteration   3: 491000,448 us/op
+Iteration   1: 499997,965 us/op
+Iteration   2: 500410,760 us/op
+Iteration   3: 492157,532 us/op
+
+# Run progress: 54,81% complete, ETA 00:31:30
+# Fork: 5 of 5
+# Warmup Iteration   1: 498148,777 us/op
+# Warmup Iteration   2: 489858,909 us/op
+# Warmup Iteration   3: 492375,728 us/op
+Iteration   1: 492958,818 us/op
+Iteration   2: 493916,360 us/op
+Iteration   3: 492712,245 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteChannel":
+  492152,094 ±(99.9%) 4696,532 us/op [Average]
+  (min, avg, max) = (485866,874, 492152,094, 500410,760), stdev = 4393,139
+  CI (99.9%): [487455,562, 496848,626] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteChannel
+# Parameters: (numberStrings = 10000, stringLength = 50)
+
+# Run progress: 55,56% complete, ETA 00:31:00
+# Fork: 1 of 5
+# Warmup Iteration   1: 51002,917 us/op
+# Warmup Iteration   2: 50496,047 us/op
+# Warmup Iteration   3: 50836,616 us/op
+Iteration   1: 49969,120 us/op
+Iteration   2: 49215,224 us/op
+Iteration   3: 49578,588 us/op
+
+# Run progress: 56,30% complete, ETA 00:30:29
+# Fork: 2 of 5
+# Warmup Iteration   1: 50274,866 us/op
+# Warmup Iteration   2: 49627,436 us/op
+# Warmup Iteration   3: 50960,935 us/op
+Iteration   1: 51586,527 us/op
+Iteration   2: 50466,064 us/op
+Iteration   3: 51178,556 us/op
+
+# Run progress: 57,04% complete, ETA 00:29:58
+# Fork: 3 of 5
+# Warmup Iteration   1: 51594,945 us/op
+# Warmup Iteration   2: 50786,585 us/op
+# Warmup Iteration   3: 50746,180 us/op
+Iteration   1: 50616,197 us/op
+Iteration   2: 51138,383 us/op
+Iteration   3: 50895,733 us/op
+
+# Run progress: 57,78% complete, ETA 00:29:26
+# Fork: 4 of 5
+# Warmup Iteration   1: 48957,636 us/op
+# Warmup Iteration   2: 48225,354 us/op
+# Warmup Iteration   3: 49040,868 us/op
+Iteration   1: 50023,823 us/op
+Iteration   2: 49454,207 us/op
+Iteration   3: 48858,452 us/op
+
+# Run progress: 58,52% complete, ETA 00:28:55
+# Fork: 5 of 5
+# Warmup Iteration   1: 49489,115 us/op
+# Warmup Iteration   2: 48694,400 us/op
+# Warmup Iteration   3: 48629,802 us/op
+Iteration   1: 49378,317 us/op
+Iteration   2: 49256,031 us/op
+Iteration   3: 48866,816 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteChannel":
+  50032,136 ±(99.9%) 956,446 us/op [Average]
+  (min, avg, max) = (48858,452, 50032,136, 51586,527), stdev = 894,660
+  CI (99.9%): [49075,690, 50988,582] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteChannel
+# Parameters: (numberStrings = 10000, stringLength = 500)
+
+# Run progress: 59,26% complete, ETA 00:28:24
+# Fork: 1 of 5
+# Warmup Iteration   1: 489763,161 us/op
+# Warmup Iteration   2: 472876,505 us/op
+# Warmup Iteration   3: 483205,532 us/op
+Iteration   1: 479427,066 us/op
+Iteration   2: 469484,917 us/op
+Iteration   3: 473505,717 us/op
+
+# Run progress: 60,00% complete, ETA 00:27:53
+# Fork: 2 of 5
+# Warmup Iteration   1: 477384,406 us/op
+# Warmup Iteration   2: 463209,549 us/op
+# Warmup Iteration   3: 467068,473 us/op
+Iteration   1: 474271,744 us/op
+Iteration   2: 464308,488 us/op
+Iteration   3: 471691,619 us/op
+
+# Run progress: 60,74% complete, ETA 00:27:23
+# Fork: 3 of 5
+# Warmup Iteration   1: 492819,220 us/op
+# Warmup Iteration   2: 473575,438 us/op
+# Warmup Iteration   3: 470155,655 us/op
+Iteration   1: 466626,371 us/op
+Iteration   2: 462556,708 us/op
+Iteration   3: 468802,033 us/op
+
+# Run progress: 61,48% complete, ETA 00:26:52
+# Fork: 4 of 5
+# Warmup Iteration   1: 494936,593 us/op
+# Warmup Iteration   2: 484959,552 us/op
+# Warmup Iteration   3: 483811,389 us/op
+Iteration   1: 472500,012 us/op
+Iteration   2: 484267,979 us/op
+Iteration   3: 480403,789 us/op
+
+# Run progress: 62,22% complete, ETA 00:26:22
+# Fork: 5 of 5
+# Warmup Iteration   1: 491922,862 us/op
+# Warmup Iteration   2: 489706,782 us/op
+# Warmup Iteration   3: 496565,490 us/op
+Iteration   1: 522019,344 us/op
+Iteration   2: 548434,117 us/op
+Iteration   3: 494936,843 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteChannel":
+  482215,783 ±(99.9%) 25205,811 us/op [Average]
+  (min, avg, max) = (462556,708, 482215,783, 548434,117), stdev = 23577,531
+  CI (99.9%): [457009,973, 507421,594] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadByteChannel
+# Parameters: (numberStrings = 10000, stringLength = 5000)
+
+# Run progress: 62,96% complete, ETA 00:25:52
+# Fork: 1 of 5
+# Warmup Iteration   1: 5182500,926 us/op
+# Warmup Iteration   2: 5630688,306 us/op
+# Warmup Iteration   3: 5178484,002 us/op
+Iteration   1: 5227092,207 us/op
+Iteration   2: 5236736,063 us/op
+Iteration   3: 5143093,371 us/op
+
+# Run progress: 63,70% complete, ETA 00:25:22
+# Fork: 2 of 5
+# Warmup Iteration   1: 5508779,628 us/op
+# Warmup Iteration   2: 5490764,727 us/op
+# Warmup Iteration   3: 5142160,735 us/op
+Iteration   1: 5145526,705 us/op
+Iteration   2: 5163298,729 us/op
+Iteration   3: 5265654,995 us/op
+
+# Run progress: 64,44% complete, ETA 00:24:52
+# Fork: 3 of 5
+# Warmup Iteration   1: 5480583,062 us/op
+# Warmup Iteration   2: 5496922,001 us/op
+# Warmup Iteration   3: 5172865,686 us/op
+Iteration   1: 5094357,143 us/op
+Iteration   2: 5064496,340 us/op
+Iteration   3: 5084838,863 us/op
+
+# Run progress: 65,19% complete, ETA 00:24:22
+# Fork: 4 of 5
+# Warmup Iteration   1: 5467500,480 us/op
+# Warmup Iteration   2: 5392183,355 us/op
+# Warmup Iteration   3: 5113906,099 us/op
+Iteration   1: 5091360,190 us/op
+Iteration   2: 5058885,207 us/op
+Iteration   3: 4997901,055 us/op
+
+# Run progress: 65,93% complete, ETA 00:23:54
+# Fork: 5 of 5
+# Warmup Iteration   1: 5457303,805 us/op
+# Warmup Iteration   2: 5466512,146 us/op
+# Warmup Iteration   3: 5060343,401 us/op
+Iteration   1: 5046627,106 us/op
+Iteration   2: 5057896,241 us/op
+Iteration   3: 5266475,190 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadByteChannel":
+  5129615,960 ±(99.9%) 91749,666 us/op [Average]
+  (min, avg, max) = (4997901,055, 5129615,960, 5266475,190), stdev = 85822,695
+  CI (99.9%): [5037866,294, 5221365,627] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadInputStream
+# Parameters: (numberStrings = 100, stringLength = 50)
+
+# Run progress: 66,67% complete, ETA 00:23:23
+# Fork: 1 of 5
+# Warmup Iteration   1: 294,042 us/op
+# Warmup Iteration   2: 172,088 us/op
+# Warmup Iteration   3: 172,939 us/op
+Iteration   1: 173,469 us/op
+Iteration   2: 171,664 us/op
+Iteration   3: 173,022 us/op
+
+# Run progress: 67,41% complete, ETA 00:22:52
+# Fork: 2 of 5
+# Warmup Iteration   1: 305,626 us/op
+# Warmup Iteration   2: 180,237 us/op
+# Warmup Iteration   3: 174,083 us/op
+Iteration   1: 173,293 us/op
+Iteration   2: 173,446 us/op
+Iteration   3: 174,765 us/op
+
+# Run progress: 68,15% complete, ETA 00:22:20
+# Fork: 3 of 5
+# Warmup Iteration   1: 295,083 us/op
+# Warmup Iteration   2: 171,355 us/op
+# Warmup Iteration   3: 171,243 us/op
+Iteration   1: 178,162 us/op
+Iteration   2: 168,679 us/op
+Iteration   3: 174,318 us/op
+
+# Run progress: 68,89% complete, ETA 00:21:49
+# Fork: 4 of 5
+# Warmup Iteration   1: 299,391 us/op
+# Warmup Iteration   2: 176,940 us/op
+# Warmup Iteration   3: 179,801 us/op
+Iteration   1: 182,299 us/op
+Iteration   2: 179,364 us/op
+Iteration   3: 182,545 us/op
+
+# Run progress: 69,63% complete, ETA 00:21:17
+# Fork: 5 of 5
+# Warmup Iteration   1: 319,920 us/op
+# Warmup Iteration   2: 186,644 us/op
+# Warmup Iteration   3: 175,777 us/op
+Iteration   1: 175,313 us/op
+Iteration   2: 175,309 us/op
+Iteration   3: 172,964 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadInputStream":
+  175,241 ±(99.9%) 4,100 us/op [Average]
+  (min, avg, max) = (168,679, 175,241, 182,545), stdev = 3,835
+  CI (99.9%): [171,141, 179,341] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadInputStream
+# Parameters: (numberStrings = 100, stringLength = 500)
+
+# Run progress: 70,37% complete, ETA 00:20:46
+# Fork: 1 of 5
+# Warmup Iteration   1: 2923,290 us/op
+# Warmup Iteration   2: 1720,873 us/op
+# Warmup Iteration   3: 1740,709 us/op
+Iteration   1: 1697,684 us/op
+Iteration   2: 1714,005 us/op
+Iteration   3: 1687,097 us/op
+
+# Run progress: 71,11% complete, ETA 00:20:14
+# Fork: 2 of 5
+# Warmup Iteration   1: 2825,838 us/op
+# Warmup Iteration   2: 1675,190 us/op
+# Warmup Iteration   3: 1711,299 us/op
+Iteration   1: 1686,494 us/op
+Iteration   2: 1709,797 us/op
+Iteration   3: 1699,269 us/op
+
+# Run progress: 71,85% complete, ETA 00:19:43
+# Fork: 3 of 5
+# Warmup Iteration   1: 2891,336 us/op
+# Warmup Iteration   2: 1678,031 us/op
+# Warmup Iteration   3: 1727,659 us/op
+Iteration   1: 1733,869 us/op
+Iteration   2: 1706,317 us/op
+Iteration   3: 1674,061 us/op
+
+# Run progress: 72,59% complete, ETA 00:19:11
+# Fork: 4 of 5
+# Warmup Iteration   1: 2863,111 us/op
+# Warmup Iteration   2: 1696,374 us/op
+# Warmup Iteration   3: 1702,320 us/op
+Iteration   1: 1671,322 us/op
+Iteration   2: 1681,079 us/op
+Iteration   3: 1701,513 us/op
+
+# Run progress: 73,33% complete, ETA 00:18:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 2892,821 us/op
+# Warmup Iteration   2: 1697,699 us/op
+# Warmup Iteration   3: 1693,740 us/op
+Iteration   1: 1700,150 us/op
+Iteration   2: 1700,728 us/op
+Iteration   3: 1686,020 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadInputStream":
+  1696,627 ±(99.9%) 17,414 us/op [Average]
+  (min, avg, max) = (1671,322, 1696,627, 1733,869), stdev = 16,289
+  CI (99.9%): [1679,213, 1714,041] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadInputStream
+# Parameters: (numberStrings = 100, stringLength = 5000)
+
+# Run progress: 74,07% complete, ETA 00:18:09
+# Fork: 1 of 5
+# Warmup Iteration   1: 28465,003 us/op
+# Warmup Iteration   2: 16980,909 us/op
+# Warmup Iteration   3: 16647,734 us/op
+Iteration   1: 16963,904 us/op
+Iteration   2: 16841,090 us/op
+Iteration   3: 17484,308 us/op
+
+# Run progress: 74,81% complete, ETA 00:17:37
+# Fork: 2 of 5
+# Warmup Iteration   1: 28590,041 us/op
+# Warmup Iteration   2: 16813,604 us/op
+# Warmup Iteration   3: 16763,228 us/op
+Iteration   1: 16829,015 us/op
+Iteration   2: 16851,283 us/op
+Iteration   3: 16764,468 us/op
+
+# Run progress: 75,56% complete, ETA 00:17:06
+# Fork: 3 of 5
+# Warmup Iteration   1: 28473,852 us/op
+# Warmup Iteration   2: 17075,810 us/op
+# Warmup Iteration   3: 16619,888 us/op
+Iteration   1: 17015,463 us/op
+Iteration   2: 17080,290 us/op
+Iteration   3: 17492,390 us/op
+
+# Run progress: 76,30% complete, ETA 00:16:35
+# Fork: 4 of 5
+# Warmup Iteration   1: 27179,199 us/op
+# Warmup Iteration   2: 16025,395 us/op
+# Warmup Iteration   3: 16037,894 us/op
+Iteration   1: 15885,632 us/op
+Iteration   2: 15867,686 us/op
+Iteration   3: 15889,664 us/op
+
+# Run progress: 77,04% complete, ETA 00:16:03
+# Fork: 5 of 5
+# Warmup Iteration   1: 27102,292 us/op
+# Warmup Iteration   2: 16015,671 us/op
+# Warmup Iteration   3: 15966,407 us/op
+Iteration   1: 15943,546 us/op
+Iteration   2: 15854,347 us/op
+Iteration   3: 15614,302 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadInputStream":
+  16558,493 ±(99.9%) 688,025 us/op [Average]
+  (min, avg, max) = (15614,302, 16558,493, 17492,390), stdev = 643,579
+  CI (99.9%): [15870,468, 17246,517] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadInputStream
+# Parameters: (numberStrings = 1000, stringLength = 50)
+
+# Run progress: 77,78% complete, ETA 00:15:32
+# Fork: 1 of 5
+# Warmup Iteration   1: 2881,049 us/op
+# Warmup Iteration   2: 1732,205 us/op
+# Warmup Iteration   3: 1729,911 us/op
+Iteration   1: 1779,927 us/op
+Iteration   2: 1787,324 us/op
+Iteration   3: 1808,270 us/op
+
+# Run progress: 78,52% complete, ETA 00:15:01
+# Fork: 2 of 5
+# Warmup Iteration   1: 3001,927 us/op
+# Warmup Iteration   2: 1689,864 us/op
+# Warmup Iteration   3: 1684,386 us/op
+Iteration   1: 1727,289 us/op
+Iteration   2: 1682,891 us/op
+Iteration   3: 1705,992 us/op
+
+# Run progress: 79,26% complete, ETA 00:14:30
+# Fork: 3 of 5
+# Warmup Iteration   1: 2812,880 us/op
+# Warmup Iteration   2: 1645,766 us/op
+# Warmup Iteration   3: 1642,811 us/op
+Iteration   1: 1639,154 us/op
+Iteration   2: 1703,340 us/op
+Iteration   3: 1642,132 us/op
+
+# Run progress: 80,00% complete, ETA 00:13:58
+# Fork: 4 of 5
+# Warmup Iteration   1: 2889,210 us/op
+# Warmup Iteration   2: 1687,640 us/op
+# Warmup Iteration   3: 1705,426 us/op
+Iteration   1: 1701,579 us/op
+Iteration   2: 1680,217 us/op
+Iteration   3: 1693,652 us/op
+
+# Run progress: 80,74% complete, ETA 00:13:27
+# Fork: 5 of 5
+# Warmup Iteration   1: 2812,897 us/op
+# Warmup Iteration   2: 1667,144 us/op
+# Warmup Iteration   3: 1672,824 us/op
+Iteration   1: 1685,503 us/op
+Iteration   2: 1675,853 us/op
+Iteration   3: 1663,287 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadInputStream":
+  1705,094 ±(99.9%) 54,255 us/op [Average]
+  (min, avg, max) = (1639,154, 1705,094, 1808,270), stdev = 50,750
+  CI (99.9%): [1650,839, 1759,349] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadInputStream
+# Parameters: (numberStrings = 1000, stringLength = 500)
+
+# Run progress: 81,48% complete, ETA 00:12:56
+# Fork: 1 of 5
+# Warmup Iteration   1: 26926,278 us/op
+# Warmup Iteration   2: 15603,248 us/op
+# Warmup Iteration   3: 15564,871 us/op
+Iteration   1: 16172,580 us/op
+Iteration   2: 16092,826 us/op
+Iteration   3: 16062,322 us/op
+
+# Run progress: 82,22% complete, ETA 00:12:25
+# Fork: 2 of 5
+# Warmup Iteration   1: 27039,648 us/op
+# Warmup Iteration   2: 15908,929 us/op
+# Warmup Iteration   3: 15663,777 us/op
+Iteration   1: 15804,702 us/op
+Iteration   2: 15657,283 us/op
+Iteration   3: 15605,915 us/op
+
+# Run progress: 82,96% complete, ETA 00:11:54
+# Fork: 3 of 5
+# Warmup Iteration   1: 27958,051 us/op
+# Warmup Iteration   2: 15710,857 us/op
+# Warmup Iteration   3: 15850,809 us/op
+Iteration   1: 16196,648 us/op
+Iteration   2: 15697,967 us/op
+Iteration   3: 15641,992 us/op
+
+# Run progress: 83,70% complete, ETA 00:11:22
+# Fork: 4 of 5
+# Warmup Iteration   1: 26944,386 us/op
+# Warmup Iteration   2: 15471,940 us/op
+# Warmup Iteration   3: 15760,086 us/op
+Iteration   1: 15571,868 us/op
+Iteration   2: 15741,591 us/op
+Iteration   3: 15718,308 us/op
+
+# Run progress: 84,44% complete, ETA 00:10:51
+# Fork: 5 of 5
+# Warmup Iteration   1: 27657,216 us/op
+# Warmup Iteration   2: 15572,677 us/op
+# Warmup Iteration   3: 15783,555 us/op
+Iteration   1: 15467,043 us/op
+Iteration   2: 15701,604 us/op
+Iteration   3: 15662,697 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadInputStream":
+  15786,356 ±(99.9%) 246,261 us/op [Average]
+  (min, avg, max) = (15467,043, 15786,356, 16196,648), stdev = 230,353
+  CI (99.9%): [15540,095, 16032,617] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadInputStream
+# Parameters: (numberStrings = 1000, stringLength = 5000)
+
+# Run progress: 85,19% complete, ETA 00:10:20
+# Fork: 1 of 5
+# Warmup Iteration   1: 269127,977 us/op
+# Warmup Iteration   2: 153856,636 us/op
+# Warmup Iteration   3: 153575,825 us/op
+Iteration   1: 150550,909 us/op
+Iteration   2: 151263,584 us/op
+Iteration   3: 154942,056 us/op
+
+# Run progress: 85,93% complete, ETA 00:09:49
+# Fork: 2 of 5
+# Warmup Iteration   1: 256994,836 us/op
+# Warmup Iteration   2: 152195,780 us/op
+# Warmup Iteration   3: 150827,882 us/op
+Iteration   1: 149286,444 us/op
+Iteration   2: 163325,739 us/op
+Iteration   3: 153672,553 us/op
+
+# Run progress: 86,67% complete, ETA 00:09:18
+# Fork: 3 of 5
+# Warmup Iteration   1: 279084,974 us/op
+# Warmup Iteration   2: 154644,638 us/op
+# Warmup Iteration   3: 154074,604 us/op
+Iteration   1: 153564,963 us/op
+Iteration   2: 153862,419 us/op
+Iteration   3: 153373,579 us/op
+
+# Run progress: 87,41% complete, ETA 00:08:47
+# Fork: 4 of 5
+# Warmup Iteration   1: 264487,094 us/op
+# Warmup Iteration   2: 154146,950 us/op
+# Warmup Iteration   3: 152921,192 us/op
+Iteration   1: 154259,822 us/op
+Iteration   2: 152221,391 us/op
+Iteration   3: 152977,992 us/op
+
+# Run progress: 88,15% complete, ETA 00:08:16
+# Fork: 5 of 5
+# Warmup Iteration   1: 257192,008 us/op
+# Warmup Iteration   2: 154179,510 us/op
+# Warmup Iteration   3: 153786,222 us/op
+Iteration   1: 153731,771 us/op
+Iteration   2: 154294,471 us/op
+Iteration   3: 155277,577 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadInputStream":
+  153773,685 ±(99.9%) 3325,456 us/op [Average]
+  (min, avg, max) = (149286,444, 153773,685, 163325,739), stdev = 3110,633
+  CI (99.9%): [150448,229, 157099,140] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadInputStream
+# Parameters: (numberStrings = 10000, stringLength = 50)
+
+# Run progress: 88,89% complete, ETA 00:07:45
+# Fork: 1 of 5
+# Warmup Iteration   1: 28022,583 us/op
+# Warmup Iteration   2: 16463,397 us/op
+# Warmup Iteration   3: 16352,269 us/op
+Iteration   1: 16440,676 us/op
+Iteration   2: 16015,287 us/op
+Iteration   3: 16386,430 us/op
+
+# Run progress: 89,63% complete, ETA 00:07:14
+# Fork: 2 of 5
+# Warmup Iteration   1: 28113,868 us/op
+# Warmup Iteration   2: 16727,541 us/op
+# Warmup Iteration   3: 16301,903 us/op
+Iteration   1: 16343,026 us/op
+Iteration   2: 16459,336 us/op
+Iteration   3: 16359,003 us/op
+
+# Run progress: 90,37% complete, ETA 00:06:43
+# Fork: 3 of 5
+# Warmup Iteration   1: 27493,905 us/op
+# Warmup Iteration   2: 16200,281 us/op
+# Warmup Iteration   3: 16497,552 us/op
+Iteration   1: 16940,540 us/op
+Iteration   2: 16096,098 us/op
+Iteration   3: 16330,570 us/op
+
+# Run progress: 91,11% complete, ETA 00:06:12
+# Fork: 4 of 5
+# Warmup Iteration   1: 27649,488 us/op
+# Warmup Iteration   2: 16104,696 us/op
+# Warmup Iteration   3: 16053,229 us/op
+Iteration   1: 16182,129 us/op
+Iteration   2: 15779,314 us/op
+Iteration   3: 15992,154 us/op
+
+# Run progress: 91,85% complete, ETA 00:05:41
+# Fork: 5 of 5
+# Warmup Iteration   1: 28650,070 us/op
+# Warmup Iteration   2: 16842,466 us/op
+# Warmup Iteration   3: 16867,112 us/op
+Iteration   1: 16826,187 us/op
+Iteration   2: 16770,509 us/op
+Iteration   3: 16813,181 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadInputStream":
+  16382,296 ±(99.9%) 364,964 us/op [Average]
+  (min, avg, max) = (15779,314, 16382,296, 16940,540), stdev = 341,388
+  CI (99.9%): [16017,332, 16747,260] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadInputStream
+# Parameters: (numberStrings = 10000, stringLength = 500)
+
+# Run progress: 92,59% complete, ETA 00:05:10
+# Fork: 1 of 5
+# Warmup Iteration   1: 279394,131 us/op
+# Warmup Iteration   2: 152466,763 us/op
+# Warmup Iteration   3: 154128,153 us/op
+Iteration   1: 155286,929 us/op
+Iteration   2: 154390,251 us/op
+Iteration   3: 155647,236 us/op
+
+# Run progress: 93,33% complete, ETA 00:04:39
+# Fork: 2 of 5
+# Warmup Iteration   1: 256518,745 us/op
+# Warmup Iteration   2: 154751,736 us/op
+# Warmup Iteration   3: 154427,273 us/op
+Iteration   1: 155691,638 us/op
+Iteration   2: 152330,213 us/op
+Iteration   3: 153309,524 us/op
+
+# Run progress: 94,07% complete, ETA 00:04:08
+# Fork: 3 of 5
+# Warmup Iteration   1: 266490,484 us/op
+# Warmup Iteration   2: 153431,816 us/op
+# Warmup Iteration   3: 152916,711 us/op
+Iteration   1: 153311,947 us/op
+Iteration   2: 153594,727 us/op
+Iteration   3: 152804,626 us/op
+
+# Run progress: 94,81% complete, ETA 00:03:37
+# Fork: 4 of 5
+# Warmup Iteration   1: 267348,868 us/op
+# Warmup Iteration   2: 161503,059 us/op
+# Warmup Iteration   3: 159355,676 us/op
+Iteration   1: 159227,921 us/op
+Iteration   2: 160037,668 us/op
+Iteration   3: 164378,643 us/op
+
+# Run progress: 95,56% complete, ETA 00:03:06
+# Fork: 5 of 5
+# Warmup Iteration   1: 294326,538 us/op
+# Warmup Iteration   2: 166136,325 us/op
+# Warmup Iteration   3: 166147,881 us/op
+Iteration   1: 171588,715 us/op
+Iteration   2: 179301,432 us/op
+Iteration   3: 177703,051 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadInputStream":
+  159906,968 ±(99.9%) 9782,225 us/op [Average]
+  (min, avg, max) = (152330,213, 159906,968, 179301,432), stdev = 9150,300
+  CI (99.9%): [150124,743, 169689,193] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_192, OpenJDK 64-Bit Server VM, 25.192-b26
+# VM invoker: /usr/lib/jvm/java-8-openjdk/jre/bin/java
+# VM options: <none>
+# Warmup: 3 iterations, 5 s each
+# Measurement: 3 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.writeAndReadInputStream
+# Parameters: (numberStrings = 10000, stringLength = 5000)
+
+# Run progress: 96,30% complete, ETA 00:02:35
+# Fork: 1 of 5
+# Warmup Iteration   1: 3006176,638 us/op
+# Warmup Iteration   2: 1716741,165 us/op
+# Warmup Iteration   3: 1719331,981 us/op
+Iteration   1: 1671680,893 us/op
+Iteration   2: 1671464,131 us/op
+Iteration   3: 1749121,795 us/op
+
+# Run progress: 97,04% complete, ETA 00:02:04
+# Fork: 2 of 5
+# Warmup Iteration   1: 2980088,431 us/op
+# Warmup Iteration   2: 1721741,058 us/op
+# Warmup Iteration   3: 1753354,456 us/op
+Iteration   1: 1704260,738 us/op
+Iteration   2: 1712172,896 us/op
+Iteration   3: 1674417,970 us/op
+
+# Run progress: 97,78% complete, ETA 00:01:33
+# Fork: 3 of 5
+# Warmup Iteration   1: 2975378,104 us/op
+# Warmup Iteration   2: 1746042,836 us/op
+# Warmup Iteration   3: 1727208,557 us/op
+Iteration   1: 1713552,659 us/op
+Iteration   2: 1687117,953 us/op
+Iteration   3: 1701495,155 us/op
+
+# Run progress: 98,52% complete, ETA 00:01:02
+# Fork: 4 of 5
+# Warmup Iteration   1: 2893764,810 us/op
+# Warmup Iteration   2: 1695087,281 us/op
+# Warmup Iteration   3: 1650925,754 us/op
+Iteration   1: 1680494,903 us/op
+Iteration   2: 1646411,984 us/op
+Iteration   3: 1660484,188 us/op
+
+# Run progress: 99,26% complete, ETA 00:00:31
+# Fork: 5 of 5
+# Warmup Iteration   1: 2913971,887 us/op
+# Warmup Iteration   2: 1668462,054 us/op
+# Warmup Iteration   3: 1656146,466 us/op
+Iteration   1: 1658550,905 us/op
+Iteration   2: 1692056,712 us/op
+Iteration   3: 1680326,067 us/op
+
+
+Result "org.sample.MyBenchmark.writeAndReadInputStream":
+  1686907,263 ±(99.9%) 28012,600 us/op [Average]
+  (min, avg, max) = (1646411,984, 1686907,263, 1749121,795), stdev = 26203,003
+  CI (99.9%): [1658894,663, 1714919,863] (assumes normal distribution)
+
+
+# Run complete. Total time: 01:10:03
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                            (numberStrings)  (stringLength)  Mode  Cnt        Score       Error  Units
+MyBenchmark.writeAndReadByteArray                100              50  avgt   15      127,197 ±     3,930  us/op
+MyBenchmark.writeAndReadByteArray                100             500  avgt   15     1186,216 ±    30,880  us/op
+MyBenchmark.writeAndReadByteArray                100            5000  avgt   15    11527,528 ±   153,423  us/op
+MyBenchmark.writeAndReadByteArray               1000              50  avgt   15     1279,886 ±    55,516  us/op
+MyBenchmark.writeAndReadByteArray               1000             500  avgt   15    11751,366 ±   126,782  us/op
+MyBenchmark.writeAndReadByteArray               1000            5000  avgt   15   113794,509 ±  1085,791  us/op
+MyBenchmark.writeAndReadByteArray              10000              50  avgt   15    12759,323 ±   192,214  us/op
+MyBenchmark.writeAndReadByteArray              10000             500  avgt   15   119050,620 ±  1405,393  us/op
+MyBenchmark.writeAndReadByteArray              10000            5000  avgt   15  1194381,694 ± 21549,208  us/op
+MyBenchmark.writeAndReadByteChannel              100              50  avgt   15      496,645 ±    13,356  us/op
+MyBenchmark.writeAndReadByteChannel              100             500  avgt   15     4963,091 ±    75,331  us/op
+MyBenchmark.writeAndReadByteChannel              100            5000  avgt   15    49709,693 ±   923,890  us/op
+MyBenchmark.writeAndReadByteChannel             1000              50  avgt   15     5040,115 ±    93,043  us/op
+MyBenchmark.writeAndReadByteChannel             1000             500  avgt   15    49298,409 ±   760,173  us/op
+MyBenchmark.writeAndReadByteChannel             1000            5000  avgt   15   492152,094 ±  4696,532  us/op
+MyBenchmark.writeAndReadByteChannel            10000              50  avgt   15    50032,136 ±   956,446  us/op
+MyBenchmark.writeAndReadByteChannel            10000             500  avgt   15   482215,783 ± 25205,811  us/op
+MyBenchmark.writeAndReadByteChannel            10000            5000  avgt   15  5129615,960 ± 91749,666  us/op
+MyBenchmark.writeAndReadInputStream              100              50  avgt   15      175,241 ±     4,100  us/op
+MyBenchmark.writeAndReadInputStream              100             500  avgt   15     1696,627 ±    17,414  us/op
+MyBenchmark.writeAndReadInputStream              100            5000  avgt   15    16558,493 ±   688,025  us/op
+MyBenchmark.writeAndReadInputStream             1000              50  avgt   15     1705,094 ±    54,255  us/op
+MyBenchmark.writeAndReadInputStream             1000             500  avgt   15    15786,356 ±   246,261  us/op
+MyBenchmark.writeAndReadInputStream             1000            5000  avgt   15   153773,685 ±  3325,456  us/op
+MyBenchmark.writeAndReadInputStream            10000              50  avgt   15    16382,296 ±   364,964  us/op
+MyBenchmark.writeAndReadInputStream            10000             500  avgt   15   159906,968 ±  9782,225  us/op
+MyBenchmark.writeAndReadInputStream            10000            5000  avgt   15  1686907,263 ± 28012,600  us/op
