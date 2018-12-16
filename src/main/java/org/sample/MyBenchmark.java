@@ -27,6 +27,9 @@ public class MyBenchmark {
 		@Param({"50", "500", "5000"})
 		int stringLength;
 
+		@Param({"256", "512", "1024", "2048", "4096", "8129", "16384", "32768"})
+		int bufferSize;
+
 		String[] strings;
 
 		@Setup
@@ -48,8 +51,11 @@ public class MyBenchmark {
 		}
 
 		byte[] src = out.toByteArray();
-		for (int i = 0; i< src.length; i++) {
-			bh.consume(src[i]);
+		byte[] buffer = new byte[s.bufferSize];
+		// read
+		for (int i = 0; i < src.length; i += s.bufferSize) {
+			System.arraycopy(src, i, buffer, 0, src.length - i < s.bufferSize ? src.length - i : s.bufferSize);
+			bh.consume(buffer);
 		}
 	}
 
@@ -63,14 +69,17 @@ public class MyBenchmark {
 		}
 
 		ReadableByteChannel src = out.asReadableByteChannel();
-		ByteBuffer buffer = ByteBuffer.allocate(1);
-		while (src.read(buffer) != -1) {
-			buffer.flip();
-			bh.consume(buffer.get());
-			buffer.clear();
+		ByteBuffer bBuffer = ByteBuffer.allocate(s.bufferSize);
+		byte[] buffer = new byte[s.bufferSize];
+		int read;
+		// read
+		while ((read = src.read(bBuffer)) != -1) {
+			bBuffer.flip();
+			bBuffer.get(buffer, 0, read);
+			bh.consume(buffer);
+			bBuffer.clear();
 		}
 	}
-
 
 	@Benchmark
 	@BenchmarkMode(Mode.AverageTime)
@@ -82,8 +91,8 @@ public class MyBenchmark {
 		}
 
 		InputStream src = out.asInputStream();
-		int buffer;
-		while ((buffer = src.read()) != -1) {
+		byte[] buffer = new byte[s.bufferSize];
+		while (src.read(buffer) != -1) {
 			bh.consume(buffer);
 		}
 	}
